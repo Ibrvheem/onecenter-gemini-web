@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  scroll-behavior: smooth;
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+html {
+  font-size: 62.5%;
+}
+.flex {
+  display: flex;
+}
+.center-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.center-space-btw {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.space-btw {
+  display: flex !important;
+  justify-content: space-between;
+}
+.justify-center {
+  display: flex !important;
+  justify-content: center;
+}
+.justify-space-btw {
+  display: flex !important;
+  justify-content: space-between;
+}
+.justify-space-arnd {
+  display: flex !important;
+  justify-content: space-around;
+}
+.align-center {
+  display: flex !important;
+  align-items: center;
+}
+@keyframes my-animation {
+  from {
+    /* background-color: #ff7a59; */
+    width: 1rem;
+    opacity: 1;
+    /* top: 10px; */
+  }
+  to {
+    /* background-color: #33475b; */
+    width: 1rem;
+    opacity: 0.1;
+    /* top: 100px; */
+  }
+}
